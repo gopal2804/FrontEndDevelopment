@@ -1,0 +1,165 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+	position: fixed;
+	width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a[href="#home"]{
+	float: left;
+}
+
+.slider{
+	width: 100%;
+	height: 500px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 10px grey;
+	margin: 0px auto;
+}
+img{
+	width: 100%;
+		height: 100%;
+	
+	
+}
+#a{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	background: #907000;
+	color: black;
+	font-family: "Times New Roman";
+}
+.b{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-family: "Courier New";
+	color: #232323;
+	font-size: 80px;
+}
+
+.d{
+	background: green;
+	width: 22%;
+	height: 350px;
+	padding: 20px 20px 20px 20px;
+	margin: 15px 15px 15px 15px;
+	float: left;
+	color: white;
+}
+.c{
+	margin-left: 50px;
+	margin-top: 70px;
+}
+.e{
+	color: black;
+	font-weight: normal;
+}
+.f{
+	font-family: "Arial Verdana";
+	font-size: 20px;
+}
+.sliderr{
+	width: 100%;
+	height: 500px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 10px grey;
+	margin: 0px auto;
+}
+.g{
+	margin-top: 40px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+hr{
+	border: 1px blue solid;
+}
+  
+.sliderrr{
+	width: 100%;
+	height: 500px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 10px grey;
+	margin: 0px auto;
+}
+.sliderrrr{
+	width: 100%;
+	height: 500px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 10px grey;
+	margin: 0px auto;
+}
+.h{
+	margin-left: 70px;
+	
+}
+input{
+	padding: 05px 05px 05px 05px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#i{
+	margin-left: 500px;
+	margin-top: 25px;
+	border-radius: 10%;
+}
+.j{
+background: #a00000;	
+	height: 180px;
+}
+.o{
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	font-size: 40px;
+}
+
+.fa-phone{
+	color: white;
+	font-size: 25px;
+}
+.fa-envelope{
+	color: white;
+	font-size: 25px;
+	
+}
+.l{
+	margin-left: 700px;
+	
+}
+
+.k{
+	margin-left: 40px;
+}
+.m{
+	margin-left: 20px;
+	font-size: 25px;
+	font-weight:  normal;
+}
+.n{
+	margin-left: 20px;
+	font-size: 25px;
+}
+iframe{
+	width: 100%;
+	text-transform: uppercase;
+}

@@ -1,0 +1,1151 @@
+<html>
+	<head>
+		<title>About CSS</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+			  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+			  crossorigin="anonymous">
+		<link rel="stylesheet" href="/css.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+		<style type="text/css">
+		.g{
+			color: maroon;
+			margin-left: 40px;
+		}
+	</style>
+	</head>
+	<body>
+		
+		
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+		  <li class="nav-item">
+        <a class="nav-link" href="/">Home page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About CSS</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Css Fields
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          	<a class="dropdown-item" href="#syntax">Css syntax</a>
+            <a class="dropdown-item" href="#add">How to add Css in Html</a>
+			<a class="dropdown-item" href="#colors">Css colors</a>
+			<a class="dropdown-item" href="#property">Color property</a>
+			<a class="dropdown-item" href="#selectors">Css selectors</a>
+			<a class="dropdown-item" href="#backgrounds">Css background</a>
+         	<a class="dropdown-item" href="#border">Css border</a>
+			<a class="dropdown-item" href="#important">Few Important Properties</a>
+			<a class="dropdown-item" href="#model">Css Box model</a>
+			<a class="dropdown-item" href="#text">Css Text</a>
+			<a class="dropdown-item" href="#fonts">Css font</a>
+			<a class="dropdown-item" href="#icon">Css icons</a>
+			<a class="dropdown-item" href="#link">Css Link</a>
+        </div>
+		
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/html">HTML</a>
+     
+    </ul>
+   
+  </div>
+</nav>
+		
+		<section id="home">
+				<br><br><br>
+		
+		<h1 id="a">Cascading style sheet(CSS)</h1>
+	<div class="slider">
+		<div id="img">
+			<img src="https://cdn.pixabay.com/photo/2019/09/27/17/12/desk-4508964_960_720.jpg">
+		</div>
+	</div>
+	    </section>
+		
+		<section id="about">
+		<br><br><br><br>
+		<h1 class="c">About Css</h1>
+		<br><br><br>
+		
+		 <p class="card-text">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.</p>
+    
+      <p class="card-text"> This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content. Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices.</p>
+       <p class="card-text"> CSS also has rules for alternate formatting if the content is accessed on a mobile device. The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.</p>
+  <p class="card-text">The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents. In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL.</p>
+		</section>
+	
+		
+		<section id="syntax">
+		<br><br><br><br>
+		<h1 class="c">Css Syntax</h1>
+		<br><br><br>
+			<marquee behaviour="alternate" scrollamount="10"><img class="d" src="https://www.w3schools.com/css/selector.gif"></marquee>
+<br>
+<br>
+<ul>
+	<li>The selector points to the HTML element you want to style.</li>
+	<li>The declaration block contains one or more declarations separated by semicolons.</li>
+	<li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+	<li>A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces. </li>
+</ul>
+<h4>Eg:</h4>
+<div class="e">
+In this example all < p > elements will be center-aligned, with a red text color:<br>
+
+p {<br>
+  color: red;<br>
+  text-align: center;<br>
+}<br>
+</div>
+<br>
+<div class="e">
+Make all h1's purple and 50px font<br>
+h1 {<br>
+	color: purple;<br>
+	font-size: 50px;<br>
+}<br>
+</div>
+<br>
+<hr class="h">
+<h2 class="f">A CSS comment starts with /* and ends with */.The shortcut is ctrl+/</h2>
+<hr class="h">
+<br>		
+<br><br>		
+</section>
+		
+		<section id="add">
+		<br><br><br><br>
+		<h1 class="c" style="word-spacing: 0.1px;">How to add Css file in Html</h1>
+		<br><br><br>
+		
+		Three ways to insert
+<ol>
+	<li>Inline style</li>
+	<li>Internal style sheet</li>
+	<li>External style sheet</li>
+</ol>
+<h2 style="color: orange;"><small>1)Inline style</small></h2>
+An inline style may be used to apply a unique style for a single element.
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+<h4>Eg:</h4>
+<div class="e">
+Inline styles are defined within the "style" attribute of the relevant element:
+<br><br>
+< h1 style="color:blue;margin-left:30px;" > This ia an Inline Style < /h1 >
+<br>
+<h1 style="color:blue;margin-left:30px;">This ia an Inline Style</h1>
+</div>
+<br>
+<h2 style="color: orange;"><small>2)Internal style sheet</small></h2>
+An internal style sheet may be used if one single page has a unique style.
+<h4>Eg:</h4>
+<div class="e">
+Internal styles are defined within the < style > element, inside the < head > section of an HTML page:<br>
+< head ><br>
+< style ><br> 
+body {<br>
+  background-color: linen;<br>
+}<br>
+h1 {<br>
+  color: maroon;<br>
+  margin-left: 40px;<br>
+}<br> 
+< /style ><br>
+< /head ><br>
+<h1 class="g"> This is Internal Style Sheet</h1>
+</div>
+<br>
+<h2 style="color: orange;"><small>3)External style sheet</small></h2>
+With an external style sheet, you can change the look of an entire website by changing just one file!<br>
+Each page must include a reference to the external style sheet file inside the < link > element.
+<h4>Eg:</h4>
+<div class="e">
+External styles are defined within the < link > element, inside the < head > section of an HTML page:<br>
+< head ><br>
+< link rel="stylesheet" type="text/css" href="mystyle.css" ><br>
+< /head ><br>
+</div>
+<br>
+<hr class="h">
+<h2 class="f"><b><ins>Note: </ins></b>Try to use External style sheet method only. </h2>
+<hr class="h">
+</section>
+	
+<br><br><br>
+	<div class="content clearfix">
+
+			<div class="cube-container">
+				<div class="photo-cube">
+
+					<img class="front"src="https://cdn.pixabay.com/photo/2015/09/05/21/52/macbook-925595_960_720.jpg" alt="">
+					<img class="back" src="https://cdn.pixabay.com/photo/2018/01/17/20/22/analytics-3088958_960_720.jpg" alt="">
+					<img class="left" src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="">
+					<img class="right" src="https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg" alt="">
+
+				</div>
+			</div>	
+
+			<div class="cube-container">
+				<div class="photo-cube">
+
+					<img class="front" src="https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg" alt="">
+					<img class="back" src="https://cdn.pixabay.com/photo/2016/01/19/14/47/laptop-work-1148958_960_720.jpg" alt="">
+					<img class="left" src="https://cdn.pixabay.com/photo/2015/09/06/00/53/laptop-926775_960_720.jpg" alt="">
+					<img class="right" src="https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_960_720.jpg" alt="">
+
+				</div>
+			</div>	
+
+			<div class="cube-container">
+				<div class="photo-cube">
+
+					<img class="front" src="https://cdn.pixabay.com/photo/2016/10/15/15/19/digital-1742687_960_720.jpg" alt="">
+					<img class="back" src="https://cdn.pixabay.com/photo/2018/01/17/20/22/analytics-3088958_960_720.jpg" alt="">
+					<img class="left" src="https://cdn.pixabay.com/photo/2015/05/29/10/33/ux-789162_960_720.jpg" alt="">
+					<img class="right" src="https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_960_720.jpg" alt="">
+
+				</div>
+			</div>	
+
+		</div>
+				
+
+	<section id="colors">
+		<br><br><br><br>
+		<h1 class="c">Css colors</h1>
+		<br><br><br>
+	
+<h3><span style="color: green;">There are almost 147 predefined colors in css.<small><a href="https://www.w3schools.com/colors/colors_names.asp"><mark>Click to see.</mark></a></small><br>
+Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+<br>
+<br>
+In HTML, a color can be specified by using a color name:<br></h3>
+</span>
+<div class="j">
+<div class="i" style="background-color: red;"><span class="k">Red</span></div>
+<div class="i" style="background-color: blue;"><span class="k">blue</span></div>
+<div class="i" style="background-color: green;"><span class="k">green</span></div>
+<div class="i" style="background-color: yellow;"><span class="k">yellow</span></div>
+<div class="i" style="background-color: orange;"><span class="k">orange</span></div>
+<div class="i" style="background-color: black;" ><span class="k">black</span></div>
+<div class="i" style="background-color: pink;"><span class="k">pink</span></div>
+<div class="i" style="background-color: gray;"><span class="k">gray</span></div>
+</div>
+
+<h2>The types of color systems are:</h2>
+<ul>
+	<li>Hexadecimal color system</li>
+	<li>RGB color system</li>
+	<li>RGBA color system</li>
+	
+</ul>
+	<br><br>
+<h2 style="color: red;">1)Hexadecimal color system:</h2>
+	<br>
+In HTML, a color can be specified using a hexadecimal value in the form:<br>
+<b>#rrggbb</b><br>
+Where <b>rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).</b><br>
+For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).
+<br><br>
+<button class="l btn btn-primary">Click to see</button>
+
+<div class="m">
+<div class="i" style="background-color: #b4b4b4;"><span class="k">#b4b4b4</span></div>
+<div class="i" style="background-color: #000000;"><span class="k">#000000</span></div>
+<div class="i" style="background-color: #232323;"><span class="k">#232323</span></div>
+<div class="i" style="background-color: #ff0000;"><span class="k">#ff0000</span></div>
+<div class="i" style="background-color: #00ff00;"><span class="k">#00ff00</span></div>
+<div class="i" style="background-color: #0000ff;" ><span class="k">#0000ff</span></div>
+<div class="i" style="background-color: #432342;"><span class="k">#432342</span></div>
+<div class="i" style="background-color: #787878;"><span class="k">#787878</span></div>
+</div>
+<br>
+<br> 
+<hr>
+<h2 style="color: red;">2)RGB color system:</h2>
+In HTML, a color can be specified as an RGB value, using this formula:<br>
+<b>rgb(red, green, blue)</b><br>
+Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.<br>
+For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.<br>
+To display the color black, all color parameters must be set to 0, like this: rgb(0, 0, 0).<br>
+To display the color white, all color parameters must be set to 255, like this: rgb(255, 255, 255).<br><br>
+<button class="n btn btn-primary">Click to see</button>
+<div class="o">
+<div class="i" style="background-color: rgb(108, 127, 67);"><span class="k">rgb(108, 127, 67)</span></div>
+<div class="i" style="background-color: rgb(219, 166, 153);"><span class="k">rgb(219, 166, 153)</span></div>
+<div class="i" style="background-color: rgb(26, 181, 153);"><span class="k">rgb(26, 181, 153)</span></div>
+<div class="i" style="background-color: rgb(147, 12, 153);"><span class="k">rgb(147, 12, 153)</span></div>
+<div class="i" style="background-color: rgb(20, 213, 15);"><span class="k">rgb(20, 213, 15)</span></div>
+<div class="i" style="background-color: rgb(57, 255, 86);" ><span class="k">rgb(57, 255, 86)</span></div>
+<div class="i" style="background-color: rgb(57, 150, 86);"><span class="k">rgb(57, 150, 86)</span></div>
+<div class="i" style="background-color: rgb(0, 0, 0);"><span class="k">rgb(0, 0, 0)</span></div>
+</div>
+<br>
+<br> 
+<hr>
+<h2 style="color: red;">3)RGBA color system:</h2>
+RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.<br>
+An RGBA color value is specified with:<br>
+<b>rgba(red, green, blue, alpha)</b><br>
+<b>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).</b><br><br>
+
+<button class="p btn btn-primary">Click to see</button>
+<div class="q">
+<div class="i" style="background-color: rgba(108, 127, 67, 0.5);"><span class="k"><small><small>rgba(108, 127, 67, 0.5)</small></small></span></div>
+<div class="i" style="background-color: rgba(219, 166, 153, 1.0);"><span class="k"><small><small>rgba(219, 166, 153, 1.0)</small></small></span></div>
+<div class="i" style="background-color: rgba(26, 181, 153, 0.3);"><span class="k"><small><small>rgba(26, 181, 153, 0.3)</small></small></span></div>
+<div class="i" style="background-color: rgba(147, 12, 153, 0.6);"><span class="k"><small><small>rgba(147, 12, 153, 0.6)</small></small></span></div>
+<div class="i" style="background-color: rgba(20, 213, 15, 0.8);"><span class="k"><small><small>rgba(20, 213, 15, 0.8)</small></small></span></div>
+<div class="i" style="background-color: rgba(57, 255, 86, 0.2);" ><span class="k"><small><small>rgba(57, 255, 86, 0.2)</small></small></span></div>
+<div class="i" style="background-color: rgba(57, 150, 86, 0.9);"><span class="k"><small><small>rgba(57, 150, 86, 0.9)</small></small></span></div>
+<div class="i" style="background-color: rgba(0, 0, 0, 0.1);"><span class="k"><small><small>rgba(0, 0, 0, 0.1)</small></small></span></div>
+</div>
+<br>
+<br> 
+<hr>
+</section>
+		
+<section id="property">
+	<br><br><br><br>
+		<h1 class="c">Color property</h1>
+		<br><br><br>
+	<h2 style="color: green; margin-left: 20px;">Background color:</h2>
+	<h4>Eg:</h4>
+<div class="e">
+h3 {<br>
+  background-color: red;<br>
+}<br>
+<h3 style="background-color: blue;">Background-color property</h3>
+</div>
+<br><br>
+	
+	<h2 style="color: green; margin-left: 20px;">Text color:</h2>
+<h4>Eg:</h4>
+<div class="e">
+h3{<br>
+	color: tomato;<br>
+}<br>
+Here we can use any of the above color system.<br>
+<h3 style="color: tomato;">Text color</h3>
+</div>
+<br><br>
+	
+	<h2 style="color: green; margin-left: 20px;">Border color:</h2>
+<h4>Eg:</h4>
+<div class="e">
+1)<br>
+h3{<br>
+	border: 2px solid red;<br>
+}<br>
+Here we can use any of the above color system.<br>
+<h3 style="border: 2px solid red;">Border color</h3>
+2)<br>
+h3{<br>
+	border: 2px dashed red;<br>
+}<br>
+Here we can use any of the above color system.<br>
+<h3 style="border: 2px dashed red;">Border color</h3>
+</div>
+<br><br>
+	<hr class="h">
+	<h2 style="color: green; text-align: center;">For more information <a href="https://www.w3schools.com/css/css_colors.asp">click here</a> 	 </h2>
+	<hr class="h">
+	</section> 
+		
+		
+		<section id="selectors">
+		<br><br><br><br>
+		<h1 class="c">Color selectors</h1>
+		<br><br><br> 
+		<h4>In CSS, selectors are patterns used to select the element(s) you want to style.</h4>
+		<div class="z">
+<table style="color: black;">
+<thead>
+	<tr>
+		<th>Selector</th>
+		<th>Example</th>
+		<th>Example description</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>.class</td>
+		<td>.intro</td>
+		<td>Selects all elements with class="intro"</td>
+	</tr>
+	<tr>
+		<td>.class1 .class2</td>
+		<td>< div class="name1 name2" ><br>...< /div ></td>
+		<td>Selects all elements with both name1 and name2 set within its class attribute</td>
+	</tr>
+	<tr>
+		<td>#id</td>
+		<td>#firstname</td>
+		<td>Selects the element with id="firstname"</td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td>*</td>
+		<td>Selects all elements</td>
+	</tr>
+	<tr>
+		<td>element</td>
+		<td>p</td>
+		<td>Selects all < p > elements</td>
+	</tr>
+	<tr>
+		<td>element,element</td>
+		<td>div,p</td>
+		<td>Selects all < div > elements and all < p > elements</td>
+	</tr>
+	<tr>
+		<td>eleent element</td>
+		<td>div p</td>
+		<td>Selects all < p > elements inside < div > elements</td>
+	</tr>
+	<tr>
+		<td>element+element</td>
+		<td>div+p</td>
+		<td>Selects all  < p > elements that are placed immediately after < div >  elements</td>
+	</tr>
+	<tr>
+		<td>[attribute]</td>
+		<td>[target]</td>
+		<td>Selects all elements with a target attribute</td>
+	</tr>
+	<tr>
+		<td>[attribute=value]</td>
+		<td>[target=_blank]</td>
+		<td>Selects all elements with target="_blank"</td>
+	</tr>
+
+</tbody>
+</table>
+</div>
+<hr class="h">
+<h2 style="color: green; text-align: center;">For more information <a href="https://www.w3schools.com/cssref/css_selectors.asp">click here</a> </h2>
+<hr class="h">
+		
+		</section>
+	
+		<section id="backgrounds">
+		<br><br><br><br>
+		<h1 class="c">css background</h1>
+		<br><br><br>
+	<h5 style="color: orange; margin-left: 20px;">
+		The CSS background properties are used to define the background effects for elements.
+<br>
+CSS background properties:
+<br>
+<ul>
+<li>background-color</li>
+<li>background-image</li>
+<li>background-repeat</li>
+<li>background-attachment</li>
+<li>background-position</li>
+</ul>
+</h5>		
+		<br>
+	<h2 style="color: green; margin-left: 20px;">Background color</h2>
+	<h6>The background-color property specifies the background color of an element.</h6>
+<h4>Eg:</h4>
+<div class="e">
+h3 {<br>
+  background-color: red;<br>
+}<br>
+<h3 style="background-color: gray;">Background-color </h3>
+</div>
+<br>
+
+	<h2 style="color: green; margin-left: 20px;">Background image</h2>
+	<h6>The background-image property specifies an image to use as the background of an element.</h6>
+<br>
+<h6>By default, the image is repeated so it covers the entire element.</h6>
+<h4>Eg:</h4>
+<div class="e">
+body {<br>
+  background-image: url("paper.gif");<br>
+}<br>
+</div>
+<br>
+<h6>Showing the background image only once is also specified by the <mark>background-repeat </mark>property:</h6>
+<div class="e">
+body {<br>
+  background-image: url("img_tree.png");<br>
+  background-repeat: no-repeat;<br>
+}<br>
+</div>
+<h6>In the example above, the background image is placed in the same place as the text. We want to change the position of the image, so that it does not disturb the text too much.</h6>
+<br>
+<h6>The <mark>background-position</mark> property is used to specify the position of the background image.</h6>
+<br>
+<div class="e">
+body {<br>
+  background-image: url("img_tree.png");<br>
+  background-repeat: no-repeat;<br>
+  background-position: right top;<br>
+}<br>
+</div>
+<br>
+<h6>The <mark>background-attachment</mark> property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):</h6>
+<br>
+<div class="e">
+	body {<br>
+  background-image: url("img_tree.png");<br>
+  background-repeat: no-repeat;<br>
+  background-position: right top;<br>
+  background-attachment: fixed;<br>
+}<br>
+</div>
+<br>
+<h6>To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.</h6>
+<br>
+<h6>The shorthand property for background is <mark>background.</mark></h6>
+<div class="e">
+	body {<br>
+  background: #ffffff url("img_tree.png") no-repeat right top;<br>
+}<br>
+</div>
+<br>
+<hr class="h">
+<h2  style="color: green; text-align: center;">For more information <a href="https://www.w3schools.com/css/css_background.asp">click here</a> </h2>
+<hr class="h">
+<br>
+	<section id="border">
+		<br><br>
+		<h1 class="c">css border</h1>
+		<br><br><br>
+				
+<h6 style="margin-left: 20px">The CSS <ins><b>border</b></ins> properties allow you to specify the <b>style, width, and color </b>of an element's border.</h6>
+	<br>
+<h4 style="text-transform: uppercase; color: green; margin-left:20px;">border style</h4>
+<br>
+	<h6  style="margin-left: 20px">The <mark><b>border-style</b></mark> property specifies what kind of border to display.</h6>
+<ul style="margin-left: 20px">
+	<li><b><ins>dotted</ins></b> - Defines a dotted border</li>
+	<li><b><ins>dashed</ins></b> - Defines a dashed border</li>
+	<li><b><ins>solid</ins></b> - Defines a solid border</li>
+	<li><b><ins>double</ins></b> - Defines a double border</li>
+	<li><b><ins>groove</ins></b> - Defines a 3D grooved border. The effect depends on the border-color value</li>
+	<li><b><ins>ridge</ins></b> - Defines a 3D ridged border. The effect depends on the border-color value</li>
+	<li><b><ins>inset</ins></b> - Defines a 3D inset border. The effect depends on the border-color value</li>
+	<li><b><ins>outset</ins></b> - Defines a 3D outset border. The effect depends on the border-color value</li>
+	<li><b><ins>none</ins></b> - Defines no border</li>
+	<li><b><ins>hidden</ins></b> - Defines a hidden border</li>
+</ul>
+	<button class="r btn btn-primary" style="margin-left: 20px">Click to see</button>
+	<div class="s">
+<h3 style="border-style: dotted; border-color: orange;">A dotted border</h3>
+<h3 style="border-style: dashed; border-color: orange;">A dashed border</h3>
+<h3 style="border-style: solid; border-color: orange;">A solid border</h3>
+<h3 style="border-style: double; border-color: orange;">A double border</h3>
+<h3 style="border-style: groove; border-color: orange;">A groove border</h3>
+<h3 style="border-style: ridge; border-color: orange;">A ridge border</h3>
+<h3 style="border-style: inset; border-color: orange;">A inset border</h3>
+<h3 style="border-style: outset; border-color: orange;">A outset border</h3>
+<h3 style="border-style: none; border-color: orange;">No border</h3>
+<h3 style="border-style: hidden; border-color: orange;">A hidden border</h3>
+<h3 style="border-style: dotted dashed groove ridge; border-color: orange;">A mixed border</h3>
+</div>
+<br><br>
+	<h4 style="text-transform: uppercase; color: green; margin-left:20px;">border width</h4>
+	<br>
+	<h6 style="margin-left: 20px;">The <mark><b>border-width</b></mark> property specifies the width of the four borders.
+<br>
+The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick.
+<br>
+The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border).</h6>
+	<br>  
+<h3 style="border-style: solid ; border-width: 3px; border-color: red; width: 70%; margin-left: 200px;">5px border-width</h3> 
+<br>
+	<h4 style="text-transform: uppercase; color: green; margin-left:20px;">border shorthand property</h4>
+	<h6 style="margin-left: 20px;">As you can see from the examples above, there are many properties to consider when dealing with borders.
+<br>
+To shorten the code, it is also possible to specify all the individual border properties in one property.
+<br>
+The <mark><b>border</b></mark> property is a shorthand property for the following individual border properties:
+<br>
+border-width<br>
+border-style (required)<br>
+border-color
+</h6>	<br>
+	
+<br>
+<div class="e">
+	h1 {<br>
+  border: solid red 2px;<br>
+}<br>
+</div>
+<br>
+<hr class="h">
+<h2 style="color: green; text-align: center;">For more information <a href="https://www.w3schools.com/css/css_border.asp">click here</a> </h2>
+<hr class="h">
+<br>
+	</section>
+	
+	<section id="important">
+		<br><br>
+		<h1 class="c">Few Important Properties</h1>
+		<br><br>
+	<h2 style="color: green; margin-left: 20px;">1)Css Margin</h2>
+	<br>
+	<h6>The CSS <mark><b>margin</b></mark> properties are used to create space around elements, outside of any defined borders.
+<br>
+With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+<br>
+CSS has properties for specifying the margin for each side of an element:</h6>
+<ul>
+	<li>margin-top</li>
+	<li>margin-rigth</li>
+	<li>margin-bottom</li>
+	<li>margin-left</li>	
+</ul>
+All the margin properties can have the following values:
+<br>
+auto - the browser calculates the margin<br>
+length - specifies a margin in px, pt, cm, etc.<br>
+% - specifies a margin in % of the width of the containing element<br>
+inherit - specifies that the margin should be inherited from the parent element<br>
+<br>
+If the margin property has four values:
+<br>
+<b style="color: orange;">margin: 25px 50px 75px 100px;</b><br>
+top margin is 25px<br>
+right margin is 50px<Br>
+bottom margin is 75px<Br>
+left margin is 100px<br>
+<br>
+	
+	<h2 style="color: green; margin-left: 20px;">2)Css Padding</h2>
+	<br>
+<h6>The CSS <b><mark>padding</mark></b> properties are used to generate space around an element's content, inside of any defined borders.
+<br>
+With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).<br>
+CSS has properties for specifying the padding for each side of an element:
+<ul>
+	<li>padding-top</li>
+	<li>padding-rigth</li>
+	<li>padding-bottom</li>
+	<li>padding-left</li>
+</ul>
+All the padding properties can have the following values:
+<br>
+length - specifies a padding in px, pt, cm, etc.<br>
+% - specifies a padding in % of the width of the containing element<br>
+inherit - specifies that the padding should be inherited from the parent element<br>
+To shorten the code, it is possible to specify all the padding properties in one property.
+<br>
+	<br>
+The padding property is a shorthand property for the following individual padding properties:
+<br>
+padding-top<br>
+padding-right<br>
+padding-bottom<br>
+padding-left<br>
+	<br>
+So, here is how it works:<br>
+If the padding property has four values:<br>
+<b style="color: orange;">padding: 25px 50px 75px 100px;</b><br>
+top padding is 25px<br>
+right padding is 50px<br>
+bottom padding is 75px<br>
+left padding is 100px<br>
+	</h6>
+<br>
+	
+	<h2 style="color: green; margin-left: 20px;">3)Css Height & Width</h2>
+	The <b><mark>height</mark></b> and <b><mark>width</mark></b>properties are used to set the height and width of an element.
+<br>
+The height and width can be set to auto (this is default. Means that the browser calculates the height and width), or be specified in length values, like px, cm, etc., or in percent (%) of the containing block.
+<br>
+The height and width properties do not include padding, borders, or margins; they set the height/width of the area inside the padding, border, and margin of the element!
+<br>
+	<br>
+<h2 style="color: green;"><small>Setting max-width</small></h2>
+The <b><mark>max-width</mark></b> property is used to set the maximum width of an element.
+<br>
+The max-width can be specified in length values, like px, cm, etc., or in percent (%) of the containing block, or set to none (this is default. Means that there is no maximum width).
+<br>
+The problem with the < div > above occurs when the browser window is smaller than the width of the element (500px). The browser then adds a horizontal scrollbar to the page.
+<br>
+Using max-width instead, in this situation, will improve the browser's handling of small windows.
+<br>
+Tip: Drag the browser window to smaller than 500px wide, to see the difference between the two divs!
+<br>
+<hr class="h">
+<br>
+	</section>
+	
+		<section id="model">
+		<br><br>
+		<h1 class="c">Css box model</h1>
+		<br><br>
+		<h6 style="margin-left: 20px;">All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.</h6>
+<br>
+<h6 style="margin-left: 20px">The CSS box model is essentially a box that wraps around every HTML element. It consists of: <b><mark>margins, borders, padding, and the actual content.</mark></b> The image below illustrates the box model:</h6>
+<img class="u" src="http://web.simmons.edu/~grovesd/comm244/notes/week6/box-model.gif">
+<br><br>
+<h3 style="margin-left: 20px; color: green;"><small><b>Explanation of the different parts:<b></small></h3>
+<ul>
+	<li><b>Content:</b>The content of the box, where text and images appear</li>
+	<li><b>Padding:</b>Clears an area around the content. The padding is transparent</li>
+	<li><b>Border:</b>A border that goes around the padding and content</li>
+	<li><b>Margin:</b>Clears an area outside the border. The margin is transparent</li>
+</ul>
+The box model allows us to add a border around elements, and to define space between elements. 
+<hr class="h">
+<h2 class="f">For more information <a href="https://www.w3schools.com/css/css_boxmodel.asp">click here</a> </h2>
+<hr class="h">
+<br><br>  
+	  <div class="gallery-image">
+    <div class="img-box">
+		
+			<img src="https://cdn.pixabay.com/photo/2016/11/19/23/00/css3-1841590__340.png" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>CSS</p>
+        
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://cdn.pixabay.com/photo/2012/04/10/23/59/css-27192__340.png" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>CSS</p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="https://cdn.pixabay.com/photo/2018/08/12/13/54/code-3600810__340.png" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>CSS</p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>CSS</p>
+          
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>CSS</p>
+         
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://images.unsplash.com/photo-1533906966484-a9c978a3f090?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>CSS</p>
+          
+        </div>
+      </div> 
+    </div>
+  </div>
+	</section>
+	
+	<section id="text">
+		<br><br>
+		<h1 class="c">Css text</h1>
+		<br><br>
+		<h2 style="color: green; margin-left: 20px;">Text Alignment</h2>
+	<h6>The <b><mar>text-align</mar></b> property is used to set the horizontal alignment of a text.
+	<br>
+	A text can be left or right aligned, centered, or justified.
+<br>
+The following example shows center aligned, and left and right aligned text (left alignment is default if text direction is left-to-right, and right alignment is default if text direction is right-to-left):
+<br>
+When the text-align property is set to <b><mark>"justify"</mark></b>, each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers):</h6>
+<br>
+<br>
+<div class="e">
+	h1 {<br>
+  text-align: center;<br>
+}<br>
+
+h2 {<br>
+  text-align: left;<br>
+}<br>
+
+h3 {<br>
+  text-align: right;<br>
+}<br>
+div {<br>
+  text-align: justify;<br>
+}<br>
+</div>
+	<br>
+	<h2 style="color: green; margin-left: 20px;">Text decoration</h2>
+	<h6>The <mark><b>text-decoration</b></mark> property is used to set or remove decorations from text.
+<br>
+The value <b>text-decoration: none; is often used to remove underlines from links:</b>
+<br></h6>
+	<br>
+<div class="e">
+h1 {<br>
+  text-decoration: overline;<br>
+}<br>
+<br>
+h2 {<br>
+  text-decoration: line-through;<br>
+}<br>
+<br>
+h3 {<br>
+  text-decoration: underline;<br>
+}<br>
+</div>
+	<br>
+	<h2 style="color: green; margin-left: 20px;">Text transformation</h2>
+	<h6>The <mark><b>text-transform</b></mark> property is used to specify uppercase and lowercase letters in a text.
+<br>
+It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word:
+<br></h6>
+<br>
+<div class="e">
+h1 {<br>
+  text-transform: uppercase;<br>
+}<br>
+<br>
+h2 {<br>
+  text-transform: lowercase;<br>
+}<br>
+<br>
+h3 {<br>
+  text-transform: capitalize;<br>
+}<br>
+</div>
+<br>
+	<h2 style="color: green; margin-left: 20px;">Text indentation</h2>
+	<h6>The <mark><b>text-indent</b></mark> property is used to specify the indentation of the first line of a text:</h6>
+	<br>
+<div class="e">
+p {<br>
+  text-indent: 50px;<br>
+}<br>
+</div>	
+<br>
+	<h2 style="color: green; margin-left: 20px;">Letter spacing</h2>
+	<h6>The<mark><b>letter-spacing</b></mark> property is used to specify the space between the characters in a text.
+<br>
+The following example demonstrates how to increase or decrease the space between characters:</h6>
+	<br>
+<div class="e">
+h1 {<br>
+  letter-spacing: 3px;<br>
+}<br>
+<br>
+h2 {<br>
+  letter-spacing: -3px;<br>
+}<br>
+</div>
+<br>
+	<h2 style="color: green; margin-left: 20px;">Line height</h2>
+	<h6>The <mark><b>line-height</b></mark> property is used to specify the space between lines:</h6>
+<br>
+<div class="e">
+	p.small {<br>
+  line-height: 0.8;<br>
+}<br>
+<br>
+p.big {<br>
+  line-height: 1.8;<br>
+}<br>
+</div>
+<br>
+	<h2 style="color: green; margin-left: 20px;">Text direction</h2>
+	<h6>The <mark><b>direction</b></mark> property is used to change the text direction of an element:</h6>
+	<br>
+<div class="e">
+p {<br>
+  direction: rtl;<br>
+}<br>
+</div>	
+<br>
+		<h2 style="color: green; margin-left: 20px;">Word spacing</h2>
+	<h6>The <mark><b>word-spacing</b></mark> property is used to specify the space between the words in a text.
+<br>
+The following example demonstrates how to increase or decrease the space between words: </h6>
+<br>
+<div class="e">
+h1 {<br>
+  word-spacing: 10px;<br>
+}<br>
+<br>
+h2 {<br>
+  word-spacing: -5px;<br>
+}<br>
+</div>	
+<br>
+		<h2 style="color: green; margin-left: 20px;">Text shadow</h2>
+	<h6>The <mark><b>text-shadow</b></mark> property adds shadow to text.
+<br>
+The following example specifies the position of the horizontal shadow (3px), the position of the vertical shadow (2px) and the color of the shadow (red):</h6>
+<br>
+<div class="e">
+h1 {<br>
+  text-shadow: 3px 2px red;<br>
+}<br>
+</div>
+<br><br>
+		<button class=" btn btn-primary v" style="margin-left: 20px;">Click to see</button>
+		<div class="w">	
+Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+</div>
+<br><br>
+<hr class="h">
+<h2 class="f">For more information <a href="https://www.w3schools.com/css/css_text.asp">click here</a> </h2>
+<hr class="h">
+<br><br>
+	</section>
+	
+	<section id="fonts">
+		<br><br>
+		<h1 class="c">Css font</h1>
+		<br><br>
+	<h4 style="color: red;">The CSS font properties define the font family, boldness, size, and the style of a text.</h4>
+	<br>
+	<h2 style="color: green; margin-left: 20px;">Font family</h2>
+		<h6>The font family of a text is set with the <b><mark>font-family</mark></b> property.
+<br>
+The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on.
+<br>
+Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.
+<br>
+<b><mark>Note:</mark></b> If the name of a font family is more than one word, it must be in quotation marks, like: "Times New Roman".
+<br>
+More than one font family is specified in a comma-separated list:</h6>
+<br>
+<div class="e">
+p {<br>
+  font-family: "Times New Roman", Times, serif;<br>
+}<br>
+</div>
+<br>
+	<h2 style="color: green; margin-left: 20px;">Font style</h2>
+	<h6>The <b><mark>font-style</mark></b> property is mostly used to specify italic text.
+<br>
+This property has three values:
+<br>
+<b>normal</b> - The text is shown normally<br>
+<b>italic</b> - The text is shown in italics<br>
+<b>oblique</b> - The text is "leaning" (oblique is very similar to italic, but less supported)<br>
+<br></h6>
+	<br>
+<div class="e">
+p.normal {<br>
+  font-style: normal;<br>
+}<br>
+<br>
+p.italic {<br>
+  font-style: italic;<br>
+}<br>
+<br>
+p.oblique {<br>
+  font-style: oblique;<br>
+}<br>
+</div>
+<br>
+	<h2 style="color: green; margin-left: 20px;">Font size</h2>
+	<h6>The <b><mark>font-size</mark></b> property sets the size of the text.
+<br>
+Being able to manage the text size is important in web design. However, you should not use font size adjustments to make paragraphs look like headings, or headings look like paragraphs.
+<br>
+Always use the proper HTML tags, like < h1 > - < h6 > for headings and < p > for paragraphs.
+<br>
+The font-size value can be an absolute, or relative size.
+<br>
+Absolute size:
+<br>
+Sets the text to a specified size<br>
+Does not allow a user to change the text size in all browsers (bad for accessibility reasons)<br>
+Absolute size is useful when the physical size of the output is known<br>
+Relative size:<br>
+<br>
+Sets the size relative to surrounding elements<br>
+Allows a user to change the text size in browsers<br>
+	</h6>
+	<br>
+<div class="e">
+h1 {<br>
+  font-size: 40px;<br>
+}<br>
+<h5>By em</h5>
+h1 {<br>
+  font-size: 2.5em; /* 40px/16=2.5em */<br>
+}<br>
+<br>
+h2 {<br>
+  font-size: 1.875em; /* 30px/16=1.875em */<br>
+}<br>
+<br>
+p {<br>
+  font-size: 0.875em; /* 14px/16=0.875em */<br>
+}<br>
+</div>
+<br>	
+	<h2 style="color: green; margin-left: 20px;">Font weight</h2>
+	<h6>The <b><mark>font-weight</mark></b> property specifies the weight of a font:</h6>
+	<br>
+<div class="e">
+p.normal {<br>
+  font-weight: normal;<br>
+}<br>
+<br>
+p.thick {<br>
+  font-weight: bold;<br>
+}<br>
+</div>
+<br>
+	<h2 style="color: green; margin-left: 20px;">Font variant</h2>
+	<h6>The <b><mark>font-variant</mark></b> property specifies whether or not a text should be displayed in a small-caps font.
+<br>
+In a small-caps font, all lowercase letters are converted to uppercase letters. However, the converted uppercase letters appears in a smaller font size than the original uppercase letters in the text.
+<br></h6>
+	<br>
+<div class="e">
+p.normal {<br>
+  font-variant: normal;<br>
+}<br>
+<br>
+p.small {<br>
+  font-variant: small-caps;<br>
+}<br>
+</div>
+<br><br>
+<hr class="h">
+<h2 class="f">For more information <a href="https://www.w3schools.com/css/css_font.asp">click here</a> </h2>
+<hr class="h">
+<br><br>
+	</section>
+	
+	
+	<section id="icon">
+		<br><br>
+		<h1 class="c">Css icons</h1>
+		<br><br>
+	<span style="color: green;">The simplest way to add an icon to your HTML page, is with an icon library, such as Font Awesome.
+<br>
+Add the name of the specified icon class to any inline HTML element (like < i > or < span >).
+<h3>To use the Font Awesome icons, add the following line inside the < head > section of your HTML page:</h3>
+<b>< link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" ></b></span>
+<hr class="h">
+<h2 class="f">
+	<span class="x">
+		<abbr title="class='fas fa-database'"><i class='fas fa-database' style="color: gray;"></i></abbr>
+		<abbr title="class='fas fa-desktop'"><i class='fas fa-desktop' style="color: black;"></i></abbr>
+		<abbr title="class='far fa-save'"><i class='far fa-save' style="color: gray;"></i></abbr>
+		<abbr title="class='far fa-keyboard'"><i class='far fa-keyboard' style="color: black;"></i></abbr>
+		<abbr title="class='fas fa-spinner'"><i class='fas fa-spinner' style="color: gray;"></i></abbr>
+	</span>
+	For more information 
+	<a href="https://www.w3schools.com/icons/default.asp">click here</a> 
+	<span class="y">
+		<abbr title=" class='fas fa-om'"><i class='fas fa-om' style="color: red;"></i></abbr>
+		<abbr title="class='fas fa-praying-hands'"><i class='fas fa-praying-hands' style="color: #f44ffd;"></i></abbr>
+		<abbr title="class='fas fa-pray'"><i class='fas fa-pray' style="color: gray;"></i></abbr>
+		<abbr title="class='fas fa-church'"><i class='fas fa-church' style="color: white;"></i></abbr>
+		<abbr title="class='fas fa-khanda'"><i class='fas fa-khanda' style="color: orange;"></i></abbr>
+	</span>
+</h2>
+<hr class="h">
+<br><br>
+	</section>
+	
+	<section id="link">
+		<br><br>
+		<h1 class="c">Css link</h1>
+		<br><br>
+	<h6>With CSS, links can be styled in different ways.<br>
+Links can be styled with any CSS property <b><mark>(e.g. color, font-family, background, etc.).</mark></b>
+<br></h6>
+	<br>
+<div class="e">
+	a {<br>
+  color: hotpink;<br>
+}<br>
+</div>
+<br>
+<h6>In addition, links can be styled differently depending on what state they are in.
+<br>
+The four links states are:<br>
+<ul>
+	<br><li><b><mark>a:link</mark></b> - a normal, unvisited link</li><br>
+	<li><b><mark>a:visited</mark></b> - a link the user has visited</li><br>
+	<li><b><mark>a:hover</mark></b> - a link when the user mouses over it</li><br>
+	<li><b><mark>a:active</mark></b> - a link the moment it is clicked</li>
+</ul>
+<br>
+
+	</h6>
+	<br>
+<div class="e">
+/* unvisited link */<br>
+a:link {<br>
+  color: red;<br>
+}<br>
+<br>
+/* visited link */<br>
+a:visited {<br>
+  color: green;<br>
+}<br>
+<br>
+/* mouse over link */<br>
+a:hover {<br>
+  color: hotpink;<br>
+}<br>
+<br>
+/* selected link */<br>
+a:active {<br>
+  color: blue;<br>
+}<br>
+</div>
+
+<hr class="h">
+<a href="https://www.w3schools.com/css/default.asp"><b><marquee behaviour="alternate"><h3>Click here for detail knowledge!!</h3></marquee></b></a>
+<hr class="h">
+</section>
+	<div class="pp">
+				<h3 class="zz">Contact</h3>
+				<span class="bv"><i class="fa fa-envelope"><span class="mz">gopalgupta2804@gmail.com</span></i></span>
+				<span class="bc"><i class="fa fa-phone"><span class="nz">9792182031</span></i></span>
+			</div>	
+	
+	
+			<script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+			crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+			crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="/css.js"></script>
+	</body>
+</html>
